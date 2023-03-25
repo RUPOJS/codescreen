@@ -5,6 +5,25 @@
   background-color: #FFFFFF;
   box-shadow: 0 10px 50px 0 rgba(125,125,167,0.1);
   margin: auto;
+  border-width: 0px;
+  border-color: #fff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 56px;
+  bottom: 3px;
+  padding-left: 22px;
+}
+
+.submit-button::placeholder {
+  height: 32px;
+  width: 151px;
+  color: #87878A;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 56px;
+  margin-left: 24px;
+  position: relative;
+  bottom: 3px;
 }
 
 .enter-director-name {
@@ -28,6 +47,13 @@
   margin: auto;
   margin-top: 40px;
   cursor: pointer;
+  display: block;
+  border-width: 0px;
+  border-color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.88px;
+  color: #FFFFFF;
 }
 
 .submit-button-text {
@@ -42,4 +68,29 @@
   position: relative;
   bottom: 7px;
   margin-left: 40px;
+}
+
+.films-analysis-container {
+  height: 100vh;
+  width: 60%;
+  background: #f0f0f675;;
+  margin: auto;
+}
+
+.films-analysis-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.film-analysis-validation-err {
+  display: block;
+  color: red;
+  font-size: 12px;
+  margin-top: 8px;
+  margin-left: 16px;
+}
+
+.validation-error-input {
+  box-shadow: 0 1px 5px 0 #eb1010;
 }
